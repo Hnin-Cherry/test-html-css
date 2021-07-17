@@ -1,0 +1,49 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Responsive text and Media Queries</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            .left {
+                background-color: lightblue;
+                padding: 20px;
+                width: 20%;
+                float: left;
+            }
+            .main {
+                background-color: lightcyan;
+                padding: 20px;
+                width: 60%;
+                float: left;
+            }
+            .right {
+                background-color: lightskyblue;
+                padding: 20px;
+                width: 20%;
+                float: left;
+            }
+            @media only screen and (max-width:800px) {
+                .left,.main,.right {
+                    width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h6 style="font-size: 2vw;">Media Queries</h6>
+        <p style="font-size: 2vw;">Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+
+        <div class="left">
+            <p>Left Menu</p>
+        </div>
+        <div class="main">
+            <p>Main Content</p>
+        </div>
+        <div class="right">
+            <p>Right Content</p>
+        </div>
+    </body>
+</html>

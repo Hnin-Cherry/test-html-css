@@ -1,0 +1,22 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Div as a tooltip</title>
+        <style>
+            p {
+                display:none;
+                background-color: violet;
+                padding: 10px;
+            }
+            div:hover p {
+                display:block;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            Hover over me to show the p element
+            <p>Tada! Here me.</p>
+        </div>
+    </body>
+</html>

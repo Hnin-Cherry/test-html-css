@@ -1,0 +1,25 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Javascript Bulb</title>
+    </head>
+    <body>
+        <h2>Light On Off Animation</h2>
+        <img src="bulboff.png" id="myImg" style="width: 100px;height: 150px;">
+        <p>
+            <button type="button" onclick="light(1)">On</button>
+            <button type="button" onclick="light(0)">Off</button>
+        </p>
+        <script>
+            function light(sw) {
+                var pic;
+                if(sw == 1) {
+                    pic = "bulbon.jpg";
+                }else {
+                    pic = "bulboff.png";
+                }
+                document.getElementById("myImg").src = pic;
+            }
+        </script>
+    </body>
+</html>

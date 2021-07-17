@@ -1,0 +1,84 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Assignment1</title>
+        
+        <style>
+            * {
+                box-sizing: border-box;
+                
+            }
+            /*1div {
+                display: inline-block;
+                margin:auto;
+                box-shadow: 3px 10px 8px #888888;
+                
+            }
+            .card {
+                background-color: white;
+                margin-right: 30px;
+            }*/
+            /*2.card {
+                float: left;
+                width: 19.7%;
+                background-color: white;
+                margin: 10px;
+                box-shadow: 3px 10px 8px #888888;
+                
+            }
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }*/
+
+            .row {
+                width:100%;
+                height: 100%;
+                text-align: center; /* this is the key */
+                position: relative;
+                margin: 0 auto;
+            }
+
+            .card {
+                width: 265px;
+                height: 450px;
+                display: inline-block;
+                background-color: white;
+                margin: 10px;
+                box-shadow: 3px 10px 8px #888888;
+        
+            }
+            h2 {
+                color: tomato;
+            }
+           
+            /*p {
+                width: 260px;padding: 12px;
+            }*/
+           
+            
+          
+        </style>
+    </head>
+    <body style="background-color: rgb(223, 203, 223);">
+        <h1 style="color: white;background-color: violet;padding: 15px;text-align: center;">Flexbox-Card Layout</h1>
+        <div class="row">
+            <div class="card">
+                <img src="flower.jpg" max-width="100%" height="150px">
+                <h2>Whiskey</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos odio similique dicta ex, natus quaerat dolore unde corrupti, blanditiis, laboriosam perspiciatis atque libero accusamus fuga asperiores esse? Tempora, quam!</p>
+            </div>
+            <div class="card">
+                <img src="flower.jpg" max-width="100%" height="150px">
+                <h2>Whiskey</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos odio similique dicta ex, natus quaerat dolore unde corrupti, blanditiis, laboriosam perspiciatis atque libero accusamus fuga asperiores esse? Tempora, quam!</p>
+            </div>
+            <div class="card">
+                <img src="flower.jpg" max-width="100%" height="150px">
+                <h2>Whiskey</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eos odio similique dicta ex, natus quaerat dolore unde corrupti, blanditiis, laboriosam perspiciatis atque libero accusamus fuga asperiores esse? Tempora, quam!</p>
+            </div>
+        </div>
+    </body>
+</html>
