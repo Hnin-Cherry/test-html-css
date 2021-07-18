@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    
+}
+div {
+    display: inline-block;
+    margin:auto;
+   
+    
+}
+.card {
+    background-color: white;
+    margin-right: 30px;
+    box-shadow: 3px 10px 8px #888888;
+}
+/*2.card {
+    float: left;
+    width: 19.7%;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 3px 10px 8px #888888;
+    
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
+
+/*3.row {
+    width:100%;
+    height: 100%;
+    text-align: center; /* this is the key 
+    position: relative;
+    margin: 0 auto;
+}
+
+.card {
+    width: 265px;
+    height: 450px;
+    display: inline-block;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 3px 10px 8px #888888;
+
+}*/
+h2 {
+    color: rgb(241, 109, 86);
+    padding-left: 12px;
+    text-align: left;
+
+}
+
+p {
+    width: 260px;
+    padding-left: 12px;
+    text-align: left;
+
+}
+
+
