@@ -3,6 +3,9 @@
 }
 body {
     text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 button {
     border-radius: 20px;
@@ -14,13 +17,13 @@ button {
 .left {
     float: left;
     width: 50%;
-    height: 65%;
+    height: 70%;
     background-color: rgb(248, 245, 245);
     
 }
 .right {
     
-    height: 65%;
+    height: 70%;
     background-color: rgba(245, 42, 42, 0.918);
     
 }
