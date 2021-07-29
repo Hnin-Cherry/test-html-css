@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+.back {
+    width: 500px;
+    height: 640px;
+    background-color: rgb(240, 174, 88);
+}
+
+.left {
+    float: left;
+    width: 35%;
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+
+
+
+.right {
+    
+    padding: 100px 200px;
+}
+
+.two {
+    padding: 8px 40px;
+    border: none;
+    box-shadow: 3px 10px 8px rgb(163, 160, 160);
+}

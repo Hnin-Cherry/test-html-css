@@ -3,11 +3,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: fixed;
-    top: 0;
-    right: 180px;
     width: 100%;
-    
+    right: 180px;
+    position: fixed;
 }
 
 li {
@@ -15,9 +13,10 @@ li {
 }
 
 li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    color: black;
+    margin-right: 50px;
 }
